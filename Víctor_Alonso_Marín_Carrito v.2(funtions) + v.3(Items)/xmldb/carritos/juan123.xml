@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<cart>
+    <product_item>
+        <id_product>2</id_product>
+        <quantity>9</quantity>
+        <price_item>
+            <price>0.30</price>
+            <currency>EUR</currency>
+        </price_item>
+    </product_item>
+</cart>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <id>1</id>
+        <username>juan123</username>
+        <password>abc123</password>
+        <dni>12345678A</dni>
+    </user>
+    <user>
+        <id>2</id>
+        <username>maria456</username>
+        <password>pass456</password>
+        <dni>23456789B</dni>
+    </user>
+    <user>
+        <id>3</id>
+        <username>pedro789</username>
+        <password>xyz789</password>
+        <dni>34567890C</dni>
+    </user>
+    <user>
+        <id>4</id>
+        <username>ana001</username>
+        <password>qwerty01</password>
+        <dni>45678901D</dni>
+    </user>
+    <user>
+        <id>5</id>
+        <username>lucia002</username>
+        <password>asdf002</password>
+        <dni>56789012E</dni>
+    </user>
+</users>

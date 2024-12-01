@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <product>
+        <id>1</id>
+        <name>Manzana</name>
+        <price>0.50</price>
+        <currency>EUR</currency>
+        <stock>164</stock>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Banana</name>
+        <price>0.30</price>
+        <currency>EUR</currency>
+        <stock>167</stock>
+    </product>
+    <product>
+        <id>3</id>
+        <name>Naranja</name>
+        <price>0.60</price>
+        <currency>EUR</currency>
+        <stock>95</stock>
+    </product>
+    <product>
+        <id>4</id>
+        <name>Fresa</name>
+        <price>1.20</price>
+        <currency>EUR</currency>
+        <stock>375</stock>
+    </product>
+    <product>
+        <id>5</id>
+        <name>Uva</name>
+        <price>2.00</price>
+        <currency>EUR</currency>
+        <stock>230</stock>
+    </product>
+</catalog>

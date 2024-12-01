@@ -1,0 +1,65 @@
+TENGO 4 CLS  (clases):
+
+>clsCart.php
+>clsCatalog.php
+>clsLogin.php
+>clsUsers.php
+
+
+CADA UNO TIENE ESTAS FUNCIONES:
+
+
+clsCart.php:  --------------------------------------------------------------------------
+    >PRIVATE:
+        //== VERIFICAR STOCK CATALOGO ==//  -- checkStock ✅
+        //== CARGAR CARRITO XML ==//  -- loadCart ✅
+        //== CARGAR CATALOGO XML ==//   --loadCatalog ✅
+        //== ACTUALIZAR STOCK EN CATALOGO XML ==// --updateStock ✅
+        //== ACTUALIZAR CARRITO ==// --saveCart ✅
+    >PUBLIC:
+        //== AGREGAR PRODUCTO AL CARRITO ==//  -- addToCart  ✅    (lo hace mirando el stock)
+        //== ELIMINAR CARRITO USER ==//  -- clearCart  ✅
+        ???     modificar productos del carrito (osea tengo manzanas x2 y quiero sumarle 1 al carrito por ejemplo)
+
+clsCatalog.php: ----------------------------------------------------------------------
+    >PRIVATE:
+        //== CARGAR CATALOGO ==// -- loadCatalog ✅
+        ???    //== ACTUALIZAR CATALOGO ==// -- updateCatalog
+        ???    //== GUARDAR CATALOGO XML ==// -- saveCatalog
+
+    >PUBLIC:
+        //== VER CATALOGO ==// -- checkStock ✅
+        ???     //== AÑADIR PRODUCTO AL CATALOGO ==// -- addProduct
+        ???     //== MODIFICAR PRODUCTO EN EL CATALOGO ==// -- updateProduct
+        ???     //== ELIMINAR PRODUCTO DEL CATALOGO ==// -- removeProduct
+        (EXTRA)   ???     //== BUSCAR PRODUCTO ==// -- searchProduct
+
+
+
+
+
+//para implementar esto deberia poner en el codigo que verifique siempre el login para lo que sea y si es true que lo haga si no que te pida login otra vez supongo(?)
+clsLogin.php: --------------------------------------------------------------    
+    PRIVATE:
+        ???     //== VERIFICAR CREDENCIALES ==// -- checkCredentials
+
+    >PUBLIC:
+        ???     //== INICIAR SESIÓN ==// -- login
+        ???     //== CERRAR SESIÓN ==// -- logout
+        ???     //== REGISTRAR NUEVO USUARIO ==// -- registerUser
+        (EXTRA)  ???     //== BORRAR USUARIO ==// -- registerUser
+        
+
+clsUsers.php: ---------------------------------------------------------------
+    PRIVATE:
+        ???     //== CARGAR USUARIOS DESDE XML ==// -- loadUsers
+        ???     //== GUARDAR USUARIOS EN XML ==// -- saveUsers
+    >PUBLIC:
+        ???     //== OBTENER DATOS DEL USUARIO ==// -- getUserData
+        ???     //== ACTUALIZAR DATOS DEL USUARIO ==// -- updateUserData
+        ???     //== ELIMINAR USUARIO ==// -- deleteUser
+        ???     //== CAMBIAR CONTRASEÑA ==// -- changePassword
+        ???     //== LISTAR TODOS LOS USUARIOS ==// -- listUsers
+
+
+

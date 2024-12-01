@@ -1,0 +1,69 @@
+Deberia agregar contraseña para crear Carrito
+y para borrar Carrito
+en addcarrito verificar que el usuario esta conectado, si no esta concetado pues hacer el login
+
+==========
+
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+➡️LOGIN
+
+// >>>  [startConnection]✅                                                        >LOGEARSE                   //INICIAR SESION
+http://localhost:40080/Carrito%20v.2(funtions)%20+%20v.3(Items)/mainObjetos.php?action=startConnection&user=juan123
+
+// >>>  [logout]✅                                                                    >CERRAR SESION            //borra todos los registros del "user" indicado
+http://localhost:40080/Carrito%20v.2(funtions)%20+%20v.3(Items)/mainObjetos.php?action=logout&user=juan123
+
+// >>>  [getLastConnection]✅                                                     >VER ULTIMA CONEXION DE UN USER   //Busca la conexion de un user concreto
+http://localhost:40080/Carrito%20v.2(funtions)%20+%20v.3(Items)/mainObjetos.php?action=getLastConnection&user=juan123
+
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+➡️USERS
+
+--
+
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+➡️CARRITO
+
+// >>>  [nuevoCarrito]✅             (USER)                                         >CREAR CART USER                 //  Crea carrito del user indicado
+http://localhost:40080/Carrito%20v.2(funtions)%20+%20v.3(Items)/mainObjetos.php?action=nuevoCarrito&user=juan123
+
+// >>> [clearCart]✅           (USER)                                        >BORRAR CART USER                      
+http://localhost:40080/Carrito%20v.2(funtions)%20+%20v.3(Items)/mainObjetos.php?action=clearCart&user=juan123
+
+// >>> [addToCart]✅           (USER, ID, QUANTITY)                         >AGREGAR PRODUCTOS USER CART      //  Suma productos al carrito indicado                     
+http://localhost:40080/Carrito%20v.2(funtions)%20+%20v.3(Items)/mainObjetos.php?action=addToCart&user=juan123&product_id=2&quantity=3
+
+// >>> [removeFromCart]✅           (USER, ID, QUANTITY)                         >ELIMINAR PRODUCTOS USER CART      //  Resta productos al carrito indicado                      
+http://localhost:40080/Carrito%20v.2(funtions)%20+%20v.3(Items)/mainObjetos.php?action=removeFromCart&user=juan123&product_id=2&quantity=3
+
+// >>> [updateItemQuantity]✅    (USER, ID, NEW_QUANTITY)                    >ACTUALIZAR CANTIDAD PRODUCTO
+http://localhost:40080/Carrito%20v.2(funtions)%20+%20v.3(Items)/mainObjetos.php?action=updateItemQuantity&user=cart&product_id=3&new_quantity=5
+
+
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+➡️CATALOGO
+// >>>  [checkStock]✅               (nada)                                   >VER STOCK DE PRODUCTOS   //Muestra por pantalla el id y cantidadStock de catalogo
+http://localhost:40080/Carrito%20v.2(funtions)%20+%20v.3(Items)/mainObjetos.php?action=checkStock
+
+// >>>  [sumarStock]✅                  (PRODUCT_ID, QUANTITY)                                   >RESTAR STOCK DE PRODUCTOS
+http://localhost:40080/Carrito%20v.2(funtions)%20+%20v.3(Items)/mainObjetos.php?action=sumarStock&product_id=5&quantity=200
+
+// >>>  [restarStock]✅                (PRODUCT_ID, QUANTITY)                                         >SUMAR STOCK DE PRODUCTOS
+http://localhost:40080/Carrito%20v.2(funtions)%20+%20v.3(Items)/mainObjetos.php?action=restarStock&product_id=5&quantity=75
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+http://localhost/Carrito%20Clase%20Acabar/Carrito%20v.2/mainObjetos.php?action=
+http://localhost/Carrito%20Clase%20Acabar/Carrito%20v.2/mainObjetos.php?action=writeConnection&user=juan123❓
